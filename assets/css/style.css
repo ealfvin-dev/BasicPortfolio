@@ -1,0 +1,66 @@
+body {
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(80, 80, 80);
+    line-height: 170%;
+    font-size: 12pt;
+}
+
+header {
+    background-color: white;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-bottom: lightgray;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.erikAlfvin {
+    background-color: rgb(35, 180, 180);
+    color: white;
+    padding: 10px;
+    height: 50px;
+    width: 200px;
+    margin-left: 9%;
+    text-align: center;
+}
+
+#Name {
+    font-size: 20pt;
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    color: rgb(35, 180, 180);
+    border-bottom: lightgray;
+    border-bottom-style: solid;
+    padding-bottom: 30px;
+    border-bottom-width: 3px;
+}
+
+#MainContent {
+    background-color: white;
+    border: lightgrey;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#ProfilePicture {
+    width: 15%;
+    float: left;
+}
+
+p {
+    float: left;
+}
+
+
+.menu-link {
+    padding: 8px;
+    float: right;
+}
