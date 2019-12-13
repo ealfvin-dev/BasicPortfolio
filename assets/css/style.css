@@ -5,22 +5,24 @@
   }
 
 body {
-    background-color: whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(80, 80, 80);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
     line-height: 170%;
     font-size: 12pt;
+    background-image: url("../images/so-white.png");
+    background-repeat: repeat;
 }
 
 header {
-    background-color: white;
-    border-bottom: lightgray;
+    background-color: #ffffff;
+    border-bottom: #cccccc;
     border-bottom-style: solid;
     border-bottom-width: 2px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .erikAlfvin {
-    background-color: rgb(35, 180, 180);
+    background-color: #4aaaa5;
     color: white;
     padding: 10px;
     height: 50px;
@@ -32,21 +34,23 @@ header {
 
 #Name {
     font-size: 20pt;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
     text-decoration: none;
 }
 
 h2 {
-    color: rgb(35, 180, 180);
+    color: #4aaaa5;
     border-bottom: lightgray;
     border-bottom-style: solid;
     padding-bottom: 30px;
     border-bottom-width: 3px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #MainContent {
-    background-color: white;
-    border: lightgrey;
+    background-color: #ffffff;
+    border: #dddddd;
     border-style: solid;
     border-width: 1px;
     padding: 25px;
@@ -56,14 +60,25 @@ h2 {
 }
 
 #ContactContent {
-    background-color: white;
-    border: lightgrey;
+    background-color: #ffffff;
+    border: #dddddd;
     border-style: solid;
     border-width: 1px;
     padding: 25px;
     margin-top: 3%;
     margin-left: 25%;
     margin-right: 25%;
+}
+
+#PortfolioContent {
+    background-color: #ffffff;
+    border: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+    padding: 25px;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 #ProfilePicture {
@@ -89,10 +104,11 @@ a {
     margin: 0px;
     color: rgb(80, 80, 80);
     text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #ContactSubmit {
-    background-color: rgb(35, 180, 180);
+    background-color: #4aaaa5;
     border: none;
     color: white;
     text-align: center;
@@ -105,16 +121,17 @@ a {
 
 footer {
     height: 5%;
-    background-color: rgb(80, 80, 80);
+    background-color: #666666;
     color: white;
     position: fixed;
     text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 9pt;
     width: 100%;
     padding: 5px;
     bottom: 0;
     left: 0;
-    border-top: rgb(35, 180, 180);
+    border-top: #4aaaa5;
     border-top-style: solid;
-    border-width: 6px;
+    border-width: 8px;
 }
